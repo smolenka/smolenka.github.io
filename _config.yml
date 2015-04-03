@@ -1,0 +1,7 @@
+title: KOSMOS - kosmetický smolný sortiment
+baseurl:
+permalink: pretty
+markdown: rdiscount
+facebookurl: https://www.facebook.com/otevrenamesta
+gems:
+  - jekyll-sitemap

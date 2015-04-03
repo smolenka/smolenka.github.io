@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+
+<div class="row">
+
+  <div class="small-12 large-8 columns {{ page.style }}">
+
+    <section role="main">
+      {{content}}
+    </section>
+
+  </div>
+
+  <div class="small-12 large-4 columns {{ page.style }}">
+    {% capture myInclude %}{% include quicknav.md %}{% endcapture %}
+    {{ myInclude | markdownify }}
+
+    {% include related.html %}
+  </div>
+
+</div>
