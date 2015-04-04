@@ -1,6 +1,6 @@
 ---
 layout: index
-title:
+title: Smolenka
 description: Tradiční mast i krém vyrobeny z přírodních surovin bez přidaných konzervačních látek, barviv a parfemace, podle originální rodinné receptury z 19. století. Příznivé účinky této masti ověřeny generacemi.
 keywords: mast, smůla, smolná, léčivá, zánět, vyléčit
 section: blog
