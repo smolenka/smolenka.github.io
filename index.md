@@ -6,7 +6,7 @@ keywords: mast, smůla, smolná, léčivá, zánět, vyléčit
 section: blog
 ---
 
-# Smolenka – mast a krém ze smrkové pryskyřice!
+# Smolenka – mast a krém ze smrkové pryskyřice
 
 Tradiční mast i krém jsou  vyrobeny z přírodních surovin bez přidaných konzervačních látek, barviv a parfemace.
 Výroba navazuje na originální rodinnou recepturu rodu Voštů, která s výrobou masti v obci Balkova Lhota započala zřejmě již koncem 19. století.
