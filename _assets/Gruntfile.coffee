@@ -34,8 +34,6 @@ module.exports = (grunt) ->
       dist:
         src: [  # the files to concatenate
           'bower_components/modernizr/modernizr.js'
-          'bower_components/zepto/zepto.js'
-          'bower_components/zepto-onepage-scroll/zepto.onepagescroll.js'
           'js/**/*.js'
         ]
         dest: '../static/script.js' # the location of the resulting JS file
