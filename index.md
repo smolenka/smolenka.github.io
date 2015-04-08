@@ -8,7 +8,7 @@ section: blog
 
 <div class="hero">
   <div class="row">
-    <div class="small-8 columns">
+    <div class="small-7 columns herocontainer">
       {% capture myInclude %}{% include index/info.md %}{% endcapture %}
       {{ myInclude | markdownify }}
     </div>
