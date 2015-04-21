@@ -25,9 +25,9 @@ Naneste mast pomocí polštářkové náplasti či gázy na postižené místo n
 
 Skladuje v chladu do 10°C.
 
-- 15ml:
-- 30ml:
-- 50ml:
+- 15 ml: 70 Kč
+- 30 ml: 120 Kč
+- 50 ml: 170 Kč
 
 ### Smolný krém
 
@@ -51,9 +51,8 @@ Lehkou masáží vetřete na postiženou pokožku. Aplikujte podle potřeby.
 
 Skladujte v suchu při pokojové teplotě do 25°C
 
-- 30ml:
-- 50ml:
-
+- 30ml: 150 Kč
+- 50ml: 190 Kč
 
 objednat můžete prozatím telefonicky nebo e-mailem.
 E-shop se připravuje.
