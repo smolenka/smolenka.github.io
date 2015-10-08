@@ -28,9 +28,31 @@ section: blog
 <hr/>
 <div class="row">
   <div class="small-12 columns">
-    <section class="produkty">
-      <a name="produkty"></a>
-      {% capture myInclude %}{% include index/produkty.md %}{% endcapture %}
+    <h2>Naše produkty</h2>
+    <a name="produkty"></a>
+
+    <p>
+    Objednat můžete prozatím telefonicky nebo e-mailem.
+    E-shop se připravuje.
+    </p>
+  </div>
+</div>
+<div class="row">
+  <div class="medium-6 small-12 columns">
+      {% capture myInclude %}{% include index/mast.md %}{% endcapture %}
+      {{ myInclude | markdownify }}
+  </div>
+
+  <div class="medium-6 small-12 columns">
+      {% capture myInclude %}{% include index/krem.md %}{% endcapture %}
+      {{ myInclude | markdownify }}
+  </div>
+</div>
+
+<div class="row">
+  <div class="small-12 columns">
+    <section class="zkusenosti">
+      {% capture myInclude %}{% include index/reference.md %}{% endcapture %}
       {{ myInclude | markdownify }}
     </section>
   </div>
