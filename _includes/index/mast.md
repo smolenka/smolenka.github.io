@@ -1,6 +1,8 @@
 
 ### Smolná mast
 
+![obrázek masti](/static/mast.jpg)
+
 Smolná mast je velice efektivní přírodní produkt, který poskytne Vaší pokožce dokonalou péči.
 Účinnou látkou je smrková pryskyřice, která zklidňuje zarudlou pokožku se sklonem k zánětům a kožním problémům.
 Smolná mast je vhodná také na problematickou pleť a při problémech zubů.

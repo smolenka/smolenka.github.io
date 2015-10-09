@@ -1,6 +1,8 @@
 
 ### Smolný krém
 
+![obrázek krému](/static/krem.jpg)
+
 Lehce roztíratelný Smolný krém s nižním obsahem smrkové pryskyřice uleví především při kloubních a svalových obtížích.
 Smolný krém má smetanovou barvu a příjemnou vůni po silici jehličnatých stromů.
 Přítomnost bambuckého másla zaručí intenzivní hydrataci a zvláčnění pokožky.

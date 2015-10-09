@@ -38,12 +38,12 @@ section: blog
   </div>
 </div>
 <div class="row">
-  <div class="medium-6 small-12 columns">
+  <div class="medium-6 small-12 columns produkt">
       {% capture myInclude %}{% include index/mast.md %}{% endcapture %}
       {{ myInclude | markdownify }}
   </div>
 
-  <div class="medium-6 small-12 columns">
+  <div class="medium-6 small-12 columns produkt">
       {% capture myInclude %}{% include index/krem.md %}{% endcapture %}
       {{ myInclude | markdownify }}
   </div>
