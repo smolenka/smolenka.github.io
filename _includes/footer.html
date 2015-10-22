@@ -2,7 +2,8 @@
 <footer class="site-footer" role="contentinfo">
 
   <div class="row">
-    <div class="small-6 columns">
+
+    <div class="medium-6 small-12 columns">
       <section class="kontakt">
         <a name="kontakt"></a>
         {% capture myInclude %}{% include index/kontakt.md %}{% endcapture %}
@@ -10,24 +11,31 @@
       </section>
     </div>
 
-    <div class="small-6 columns">
+    <div class="medium-6 small-12 columns">
       <div id="fb-root"></div>
       <div class="fb-like-box" data-href="{{ site.facebookurl }}"
         data-height="300px" data-colorscheme="dark" data-show-faces="true"
         data-header="false" data-stream="false" data-show-border="false">
       </div>
     </div>
+
   </div>
 
   <hr/>
 
   <div class="row">
-    <div class="large-12 columns">
+    <div class="medium-6 small-12 columns">
 
-      <ul class="inline-list right">
+      <ul class="inline-list">
         <li><a href="{{ site.facebookurl }}"><i class="fa fa-facebook"></i>acebook</a></li>
         {% if site.twitterurl %}<li><a href="{{ site.twitterurl }}">Twitter <i class="fa fa-twitter"></i></a></li>{% endif %}
       </ul>
+
+      <a href="#"><i class="fa fa-angle-up"></i> Nahoru (Top)</a>
+
+    </div>
+
+    <div class="medium-6 small-12 columns">
 
       <p class="quiet copyright">
         Všechna práva vyhlazena. Obsah této stránky můžete volně šířit podle licence
@@ -35,10 +43,6 @@
           <img src="https://licensebuttons.net/l/by/4.0/80x15.png" alt="Creative commons Uveďte autora 4.0"/>
         </a>
       </p>
-
-      <div class="right">
-        <a href="#"><i class="fa fa-angle-up"></i> Nahoru (Top)</a>
-      </div>
 
     </div>
   </div>
