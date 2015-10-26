@@ -31,10 +31,6 @@ section: blog
     <h2>Naše produkty</h2>
     <a name="produkty"></a>
 
-    <p>
-    Objednat můžete prozatím telefonicky nebo e-mailem.
-    E-shop se připravuje.
-    </p>
   </div>
 </div>
 <div class="row">
