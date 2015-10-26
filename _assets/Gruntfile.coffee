@@ -8,9 +8,9 @@ module.exports = (grunt) ->
 
     watch:
       scripts:
-        files: 'scss/*'
+        files: ['scss/*', 'js/*']
         options: { nospawn: true }
-        tasks: ["sass", "watch"]
+        tasks: ["sass", "concat", "concat_css", "watch"]
 
     bower:
       install:
@@ -26,14 +26,26 @@ module.exports = (grunt) ->
         options:
           outputStyle: 'compressed'
         files:
-          '../static/style.css': 'scss/style.scss'
+          '../static/style.css': [
+            'scss/style.scss'
+          ]
+
+    concat_css:
+      dist:
+        files:
+          '../static/style.css': [
+            '../static/style.css'
+            'bower_components/pgwmodal/pgwmodal.css'
+          ]
 
     concat:
       options:
         separator: ';'
       dist:
         src: [  # the files to concatenate
-          'bower_components/modernizr/modernizr.js'
+          # 'bower_components/modernizr/modernizr.js'
+          'bower_components/zepto/zepto.min.js'
+          # 'bower_components/pgwmodal/pgwmodal.min.js'
           'js/**/*.js'
         ]
         dest: '../static/script.js' # the location of the resulting JS file
@@ -47,5 +59,5 @@ module.exports = (grunt) ->
 
 
 
-  grunt.registerTask 'build', ['sass', 'concat', 'uglify']
+  grunt.registerTask 'build', ['sass', 'concat', 'concat_css']
   grunt.registerTask 'default', ['build','watch']

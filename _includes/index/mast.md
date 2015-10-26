@@ -25,7 +25,3 @@ Naneste mast pomocí polštářkové náplasti či gázy na postižené místo n
 účinnost podporuje teplo (udržujte postižené místo v teple pomocí šátku či šály).
 
 Skladuje v chladu do 10°C.
-
-- 15 ml: 60 Kč
-- 30 ml: 110 Kč
-- 50 ml: 170 Kč

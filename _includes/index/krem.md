@@ -22,7 +22,3 @@ Ingredients: Butyrospermum Parkii Butter, Prunus Amygdalus Dulcis Oil, Picea Abi
 Lehkou masáží vetřete na postiženou pokožku. Aplikujte podle potřeby.
 
 Skladujte v suchu při pokojové teplotě do 25°C
-
-- 15ml: 80 Kč
-- 30ml: 130 Kč
-- 50ml: 190 Kč

@@ -50,6 +50,79 @@ section: blog
 </div>
 
 <div class="row">
+  <div class="medium-6 small-12 columns produkt">
+      <table id="obj0"></table>
+  </div>
+
+  <div class="medium-6 small-12 columns produkt">
+      <table id="obj1"></table>
+  </div>
+</div>
+
+<div class="row">
+  <div class="small-12 columns produkt">
+    Celková cena <b id="price"></b> Kč
+  </div>
+</div>
+
+<div id="modalContent">
+
+  <div class="row">
+    <div class="small-12 columns">
+      <table id="orderList"></table>
+    </div>
+  </div>
+
+  <form id="frm">
+
+    <div class="row">
+      <div class="small-8 columns">
+        <label>Jméno
+          <input id="name" type="text" />
+        </label>
+      </div>
+      <div class="small-4 columns">
+        <label>Telefon
+          <input id="phone" type="text" />
+        </label>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="small-12 columns">
+        <label>Ulice a číslo popisné
+          <input id="address" type="text" />
+        </label>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="small-8 columns">
+        <label>Město
+          <input id="town" type="text" />
+        </label>
+      </div>
+
+      <div class="small-4 columns">
+        <label>PSČ
+          <input id="zipcode" type="text" />
+        </label>
+      </div>
+    </div>
+
+  </form>
+
+  <div class="row">
+    <div class="small-12 columns">
+      <button class="button tiny" onClick="order();">
+        Objednat <i class="fa fa-shopping-cart"></i>
+      </button>
+    </div>
+  </div>
+
+</div>
+
+<div class="row">
   <div class="small-12 columns">
     <section class="zkusenosti">
       {% capture myInclude %}{% include index/reference.md %}{% endcapture %}

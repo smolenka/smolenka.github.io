@@ -1,0 +1,12 @@
+[
+  [
+    {"name": "Mast 15 ml", "price": 60},
+    {"name": "Mast 30 ml", "price": 110},
+    {"name": "Mast 50 ml", "price": 170}
+  ],
+  [
+    {"name": "Krém 15 ml", "price": 80},
+    {"name": "Krém 30 ml", "price": 130},
+    {"name": "Krém 50 ml", "price": 190}
+  ]
+]

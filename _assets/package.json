@@ -10,6 +10,7 @@
   "devDependencies": {
     "coffee-script": "^1.8.0",
     "grunt": "~0.4.1",
+    "grunt-concat-css": "^0.3.1",
     "grunt-contrib-compress": "^0.13.0",
     "grunt-contrib-concat": "^0.5.0",
     "grunt-contrib-uglify": "^0.7.0",
