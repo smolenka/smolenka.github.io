@@ -64,7 +64,7 @@ section: blog
 
 <div class="row">
   <div class="small-12 columns produkt">
-    Celková cena <b id="price"></b> Kč
+    Celková cena <b id="price"></b> Kč, <small>(+ 77 Kč doprava)</small>
   </div>
 </div>
 
@@ -79,12 +79,12 @@ section: blog
   <form id="frm">
 
     <div class="row">
-      <div class="small-8 columns">
+      <div class="small-7 columns">
         <label>Jméno
           <input id="name" type="text" />
         </label>
       </div>
-      <div class="small-4 columns">
+      <div class="small-5 columns">
         <label>Telefon
           <input id="phone" type="text" />
         </label>
@@ -113,6 +113,21 @@ section: blog
       </div>
     </div>
 
+    <div class="row">
+      <div class="small-6 columns">
+        <label>Email
+          <input id="email" type="text" />
+        </label>
+      </div>
+      <div class="small-6 columns">
+        <label>Způsob platby</label>
+        <select id="payment">
+            <option value="prevod" selected="selected">převodem</option>
+            <option value="dobirka">dobírkou</option>
+        </select>
+      </div>
+    </div>
+
   </form>
 
   <div class="row">
@@ -123,7 +138,15 @@ section: blog
     </div>
   </div>
 
+  <div class="row">
+    <div class="small-12 columns">
+      Č.ú.: 2400733851/2010
+    </div>
+  </div>
+
 </div>
+
+<hr />
 
 <div class="row">
   <div class="small-12 columns">

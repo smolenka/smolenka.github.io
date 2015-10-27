@@ -59,7 +59,9 @@ function order() {
     address: $('#address').val(),
     town: $('#town').val(),
     zipcode: $('#zipcode').val(),
-    phone: $('#phone').val()
+    phone: $('#phone').val(),
+    email: $('#email').val(),
+    payment: $('#payment').val()
   };
   localStorage.setItem("smolenka-user", JSON.stringify(u));
 
@@ -125,6 +127,8 @@ Zepto(function($) {
       $('#address').val(u.address || '');
       $('#town').val(u.town || '');
       $('#zipcode').val(u.zipcode || '');
+      $('#email').val(u.email || '');
+      $('#payment').val(u.payment || 'prevod');
     } catch(e) {
     }
   }
