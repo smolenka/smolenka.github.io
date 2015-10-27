@@ -8,9 +8,16 @@ section: blog
 
 <div class="hero">
   <div class="row">
-    <div class="small-7 columns herocontainer">
+    <div class="small-10 medium-7 columns herocontainer">
       {% capture myInclude %}{% include index/info.md %}{% endcapture %}
       {{ myInclude | markdownify }}
+
+      <hr />
+
+      <a href="http://toulava.cz/">
+        <img src="/static/toulava.png" alt="toulava logo" />
+      </a>
+
     </div>
   </div>
 </div>
