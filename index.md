@@ -64,7 +64,7 @@ section: blog
 
 <div class="row">
   <div class="small-12 columns produkt">
-    Celková cena <b id="price"></b> Kč, <small>(+ 77 Kč doprava)</small>
+    Celková cena <b id="price"></b> Kč, <small>(+doprava, 77 Kč při platbě převodem, 90 Kč dobírkou)</small>
   </div>
 </div>
 
